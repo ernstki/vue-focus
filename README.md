@@ -17,7 +17,7 @@ Well not anymore. `vue-focus` lets you manage focus from the safety of your view
 - Focus the field when the modal windows appears
 - Track the focus to show a hint for the focused field
 - Move between fields with cursor keys
-- Implement custom focus-related controls (e.g labels)
+- Implement custom focus-related controls (e.g., labels)
 
 ## Requirements
 
@@ -61,7 +61,7 @@ export default {
 };
 ```
 
-> NOTE: As opposed to 1.x, in Vue 2.0, directives are updated every time the host component rerenders, not just when the directive expression chages. Somethimes this may be undesirable, especially for the "autofocus" use case. If you want to mimic the 1.x behavior, then add the `.lazy` modifier to the directive, e.g. `v-focus.lazy="true"`.
+> NOTE: As opposed to 1.x, in Vue 2.0, directives are updated every time the host component rerenders, not just when the directive expression changes. Sometimes this may be undesirable, especially for the "autofocus" use case. If you want to mimic the 1.x behavior, then add the `.lazy` modifier to the directive, e.g., `v-focus.lazy="true"`.
 
 ### `mixin`
 
@@ -83,7 +83,7 @@ export default {
 
 ## Caveats
 
-1. Although you can write an input that gains focus immediately after loosing it, this is not recommended, as two such inputs will fall into infinite recursion and freeze the browser.
+1. Although you can write an input that gains focus immediately after losing it, this is not recommended, as two such inputs will fall into infinite recursion and freeze the browser.
 
 ## Notes
 
